@@ -1,0 +1,30 @@
+body {
+    touch-action: manipulation;
+}
+
+.banner {
+    font-family: Rubik;
+    font-size: 150%;
+    /* font-style: italic; */
+    font-family: Amatic;
+    font-size: 4.6 vmin;
+    font-weight: 800;
+    text-align: center;
+    padding: 0 0.5em;
+}
+
+.mediv {
+    /* font-family: Amatic; */
+}
+
+#navbar.itsTime {
+    transition-duration: 200ms;
+}
+
+body.dark #navbar.itsTime {
+    background: rgba(95, 158, 160, 100%) !important;
+}
+
+body #navbar.itsTime {
+    background: rgb(142 210 212) !important;
+}
